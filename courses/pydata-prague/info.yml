@@ -1,0 +1,22 @@
+title: Kurz datové analýzy (Pražská varianta)
+description: Naučte se využít Python a nástroje pro práci s daty
+long_description: |
+
+    Materiály pro kurz datové anaýzy v Pythonu tvořené ve spolupráci komunit
+    PyLadies a PyData. Materiály předpokládají znalost Pythonu na úrovni absolventů
+    začátečnického kurzu (PyLadies).
+
+canonical: true
+vars:
+  coach-present: false
+plan:
+- title: Instalace a práce s Jupyter notebookem
+  slug: install
+  materials:
+  - lesson: pydata/install
+  - lesson: pydata/notebook
+
+- title: Knihovna pandas a základy práce s tabulkovými daty
+  slug: pandas_core
+  materials:
+  - lesson: pydata/pandas_core
