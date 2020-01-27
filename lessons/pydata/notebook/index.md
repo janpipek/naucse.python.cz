@@ -97,7 +97,7 @@ bude si moci snadno spustit tvůj kód kousek po kousku a sledovat, co se v n�
 děje. Mimoto je v hlavní nabídce i možnost `Kernel` > `Restart & Run All`, která
 restartuje Python a následně spustí všechny buňky v dokumentu.
 
-Všimni si, jak buňky měni barvu. Pokud je okraj buňky zelený, je možné ji
+Všimni si, jak buňky mění barvu. Pokud je okraj buňky zelený, je možné ji
 editovat a pomocí šipek se pohybovat v kódu, který obsahuje. Pokud je modrý, dá
 se šipkami přecházet mezi jednotlivými buňkami. Z modrého do zeleného režimu
 se dostaneme klávesou `Enter`, případně kliknutím do buňky. Naopak ze zeleného
@@ -182,7 +182,7 @@ Příklady několika zápisů:
 
 Budeš-li vzorce potřebovat a tato notace je pro tebe nová, není třeba se učit
 vše kolem jazyka LaTeX, stačí ti jednoduchá pravidla pro zápis matematických
-vzorců. Pomůže ti např. [tato nápověda](https://cs.wikipedia.org/wiki/N%C3%A1pov%C4%9Bda:Matematick%C3%A9_vzorce/) z české wikipedie.
+vzorců. Pomůže ti např. [tato nápověda](https://cs.wikipedia.org/wiki/N%C3%A1pov%C4%9Bda:Matematick%C3%A9_vzorce) z české wikipedie.
 
 ## Další užitečné funkce
 
@@ -209,17 +209,21 @@ buňku místo jednoho řádku.
 
 Seznam všech speciálních příkazů lze získat pomocí `%lsmagic`.
 
-### Příkazy shellu
+### Příkazy z příkazové řádky
 
 V buňkách notebooku je možné velmi snadno spouštět i příkazy z příkazové řádky.
 Příkaz ke spuštění v příkazové řádce místo Pythonu stačí začít znakem vykřičníku
-(např.: `!ls`)
+(např.: `!whoami`)
 
 ## Pokračování
 
 Notebook toho umí opravdu hodně a také v něm budou napsány i materiály pro
 následující kapitoly, což nám umožní prokládat teorii praktickými
 příklady i s grafy a obrázky a zájemcům si vyzkoušet s příklady experimentovat.
+
+> Veškeré zdrojové kódy lekcí a připravená data jsou k dispozici v
+[GIT repozitáři](https://github.com/PyDataCZ/naucse.python.cz/tree/master/lessons/pydata).
+Odtud je možné stáhnout si notebooky jednotlivých lekcí a dle libosti experimentovat.
 
 Nicméně na vývoj klasických aplikací a obecně pro projekty se složitější strukturou je stále 
 lepší kód rozdělit do modulů a editovat ho ve vhodném textové editoru.
